@@ -24,7 +24,7 @@ class BankAccount:
 def welcome():
     banks = ["CBI", "NBE", "QNB", "AIAHLY Bank", "EG BANK"]
     bank_name = random.choice(banks)
-    print(f"\n🏦 Welcome to {bank_name} 🏦\n")
+    print(f"\n Welcome to {bank_name} \n")
 
 def show_menu():
     print("""
