@@ -3,7 +3,7 @@ import random
 accounts = {}
 
 class BankAccount:
-    def init (self, name, balance=0.0):
+    def __init__ (self, name, balance=0.0):
         self.name = name
         self.balance = balance
 
